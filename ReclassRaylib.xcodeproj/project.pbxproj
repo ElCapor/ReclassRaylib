@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5073752C4BD003008DDD0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5073742C4BD003008DDD0E /* main.cpp */; };
+		FA50737E2C4BD067008DDD0E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA50737D2C4BD067008DDD0E /* OpenGL.framework */; };
+		FA5073802C4BD06F008DDD0E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA50737F2C4BD06F008DDD0E /* CoreVideo.framework */; };
+		FA5073822C4BD07C008DDD0E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5073812C4BD07C008DDD0E /* IOKit.framework */; };
+		FA5073842C4BD083008DDD0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5073832C4BD083008DDD0E /* Cocoa.framework */; };
+		FA5073862C4BD132008DDD0E /* libraylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5073852C4BD132008DDD0E /* libraylib.a */; };
+		FA5073972C4BD8E7008DDD0E /* rlImgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5073952C4BD8E7008DDD0E /* rlImgui.cpp */; };
+		FA5073A72C4BE479008DDD0E /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50739C2C4BE478008DDD0E /* imgui_demo.cpp */; };
+		FA5073A82C4BE479008DDD0E /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA50739D2C4BE478008DDD0E /* imgui_tables.cpp */; };
+		FA5073A92C4BE479008DDD0E /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5073A12C4BE479008DDD0E /* imgui_widgets.cpp */; };
+		FA5073AA2C4BE479008DDD0E /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5073A22C4BE479008DDD0E /* imgui_draw.cpp */; };
+		FA5073AB2C4BE479008DDD0E /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA5073A32C4BE479008DDD0E /* imgui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA50736F2C4BD003008DDD0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA5073712C4BD003008DDD0E /* ReclassRaylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReclassRaylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5073742C4BD003008DDD0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA50737D2C4BD067008DDD0E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		FA50737F2C4BD06F008DDD0E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FA5073812C4BD07C008DDD0E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		FA5073832C4BD083008DDD0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA5073852C4BD132008DDD0E /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = ../../Github/raylib/src/libraylib.a; sourceTree = "<group>"; };
+		FA5073952C4BD8E7008DDD0E /* rlImgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rlImgui.cpp; sourceTree = "<group>"; };
+		FA5073962C4BD8E7008DDD0E /* rlImgui.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rlImgui.hpp; sourceTree = "<group>"; };
+		FA50739A2C4BD9F8008DDD0E /* imgui_impl_raylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_raylib.h; sourceTree = "<group>"; };
+		FA50739C2C4BE478008DDD0E /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		FA50739D2C4BE478008DDD0E /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		FA50739E2C4BE478008DDD0E /* imstb_rectpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		FA50739F2C4BE478008DDD0E /* imstb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		FA5073A02C4BE478008DDD0E /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		FA5073A12C4BE479008DDD0E /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		FA5073A22C4BE479008DDD0E /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		FA5073A32C4BE479008DDD0E /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		FA5073A42C4BE479008DDD0E /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		FA5073A52C4BE479008DDD0E /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		FA5073A62C4BE479008DDD0E /* imstb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA50736E2C4BD003008DDD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5073862C4BD132008DDD0E /* libraylib.a in Frameworks */,
+				FA5073842C4BD083008DDD0E /* Cocoa.framework in Frameworks */,
+				FA5073822C4BD07C008DDD0E /* IOKit.framework in Frameworks */,
+				FA5073802C4BD06F008DDD0E /* CoreVideo.framework in Frameworks */,
+				FA50737E2C4BD067008DDD0E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5073682C4BD003008DDD0E = {
+			isa = PBXGroup;
+			children = (
+				FA5073732C4BD003008DDD0E /* ReclassRaylib */,
+				FA5073722C4BD003008DDD0E /* Products */,
+				FA50737C2C4BD067008DDD0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5073722C4BD003008DDD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5073712C4BD003008DDD0E /* ReclassRaylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5073732C4BD003008DDD0E /* ReclassRaylib */ = {
+			isa = PBXGroup;
+			children = (
+				FA50739B2C4BDA11008DDD0E /* ImGui */,
+				FA5073942C4BD656008DDD0E /* ImRaylib */,
+				FA5073922C4BD649008DDD0E /* Src */,
+			);
+			path = ReclassRaylib;
+			sourceTree = "<group>";
+		};
+		FA50737C2C4BD067008DDD0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5073852C4BD132008DDD0E /* libraylib.a */,
+				FA5073832C4BD083008DDD0E /* Cocoa.framework */,
+				FA5073812C4BD07C008DDD0E /* IOKit.framework */,
+				FA50737F2C4BD06F008DDD0E /* CoreVideo.framework */,
+				FA50737D2C4BD067008DDD0E /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5073922C4BD649008DDD0E /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				FA5073742C4BD003008DDD0E /* main.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		FA5073942C4BD656008DDD0E /* ImRaylib */ = {
+			isa = PBXGroup;
+			children = (
+				FA5073952C4BD8E7008DDD0E /* rlImgui.cpp */,
+				FA5073962C4BD8E7008DDD0E /* rlImgui.hpp */,
+				FA50739A2C4BD9F8008DDD0E /* imgui_impl_raylib.h */,
+			);
+			path = ImRaylib;
+			sourceTree = "<group>";
+		};
+		FA50739B2C4BDA11008DDD0E /* ImGui */ = {
+			isa = PBXGroup;
+			children = (
+				FA5073A52C4BE479008DDD0E /* imconfig.h */,
+				FA50739C2C4BE478008DDD0E /* imgui_demo.cpp */,
+				FA5073A22C4BE479008DDD0E /* imgui_draw.cpp */,
+				FA5073A42C4BE479008DDD0E /* imgui_internal.h */,
+				FA50739D2C4BE478008DDD0E /* imgui_tables.cpp */,
+				FA5073A12C4BE479008DDD0E /* imgui_widgets.cpp */,
+				FA5073A32C4BE479008DDD0E /* imgui.cpp */,
+				FA5073A02C4BE478008DDD0E /* imgui.h */,
+				FA50739E2C4BE478008DDD0E /* imstb_rectpack.h */,
+				FA50739F2C4BE478008DDD0E /* imstb_textedit.h */,
+				FA5073A62C4BE479008DDD0E /* imstb_truetype.h */,
+			);
+			path = ImGui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5073702C4BD003008DDD0E /* ReclassRaylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5073782C4BD003008DDD0E /* Build configuration list for PBXNativeTarget "ReclassRaylib" */;
+			buildPhases = (
+				FA50736D2C4BD003008DDD0E /* Sources */,
+				FA50736E2C4BD003008DDD0E /* Frameworks */,
+				FA50736F2C4BD003008DDD0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReclassRaylib;
+			productName = ReclassRaylib;
+			productReference = FA5073712C4BD003008DDD0E /* ReclassRaylib */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5073692C4BD003008DDD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FA5073702C4BD003008DDD0E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = FA50736C2C4BD003008DDD0E /* Build configuration list for PBXProject "ReclassRaylib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5073682C4BD003008DDD0E;
+			productRefGroup = FA5073722C4BD003008DDD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5073702C4BD003008DDD0E /* ReclassRaylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA50736D2C4BD003008DDD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5073752C4BD003008DDD0E /* main.cpp in Sources */,
+				FA5073972C4BD8E7008DDD0E /* rlImgui.cpp in Sources */,
+				FA5073A82C4BE479008DDD0E /* imgui_tables.cpp in Sources */,
+				FA5073AA2C4BE479008DDD0E /* imgui_draw.cpp in Sources */,
+				FA5073A92C4BE479008DDD0E /* imgui_widgets.cpp in Sources */,
+				FA5073AB2C4BE479008DDD0E /* imgui.cpp in Sources */,
+				FA5073A72C4BE479008DDD0E /* imgui_demo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA5073762C4BD003008DDD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA5073772C4BD003008DDD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA5073792C4BD003008DDD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/include/",
+					"${PROJECT_DIR}/include/ImGui",
+				);
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/lib/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA50737A2C4BD003008DDD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/include/",
+					"${PROJECT_DIR}/include/ImGui",
+				);
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/lib/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA50736C2C4BD003008DDD0E /* Build configuration list for PBXProject "ReclassRaylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5073762C4BD003008DDD0E /* Debug */,
+				FA5073772C4BD003008DDD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5073782C4BD003008DDD0E /* Build configuration list for PBXNativeTarget "ReclassRaylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5073792C4BD003008DDD0E /* Debug */,
+				FA50737A2C4BD003008DDD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5073692C4BD003008DDD0E /* Project object */;
+}
